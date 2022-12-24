@@ -7,6 +7,8 @@
   --text:#EDEDED;
   --background:#121212;
   --accent:#A85AF2;
+  --navbar-background:#121212;
+
   scroll-behavior: smooth;
 }
 
@@ -15,7 +17,9 @@ $font-stack: 'Fira Code', monospace;
 .light-mode {
   --text:#121212;
   --background:#EDEDED;
+  --maincolor:#8510F0;
   --accent: #680DBD;
+  --navbar-background:#EDEDED;
 }
 
 body {
