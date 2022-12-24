@@ -1,6 +1,6 @@
 {
-  "short_name": "Luan Portifolio",
-  "name": "Luan Carlos Portifolio",
+  "short_name": "luancgs Portfolio",
+  "name": "Luan Carlos Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#8510F0",
+  "background_color": "#121212"
 }
