@@ -2,7 +2,7 @@ import '../Navbar.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const mastodonURL = 'https://joinmastodon.org';
+const mastodonURL = '@luancgs@universeodon.com';
 
 function Mastodon() {
   return (
