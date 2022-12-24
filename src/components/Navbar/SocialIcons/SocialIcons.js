@@ -1,4 +1,4 @@
-import '../Navbar.css';
+import '../Navbar.scss';
 import Github from './Github';
 import Gmail from './Gmail';
 import Linkedin from './Linkedin';

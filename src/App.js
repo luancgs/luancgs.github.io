@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { library } from '@fortawesome/fontawesome-svg-core';

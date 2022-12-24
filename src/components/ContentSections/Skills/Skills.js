@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../ContentSection.css';
+import '../ContentSection.scss';
 
 function Skills() {
   return (

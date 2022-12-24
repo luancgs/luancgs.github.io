@@ -13,22 +13,22 @@
 
   overflow-x: hidden;
   overflow-y: hidden;
-}
 
-.Navbar h1 {
-  display: inline-block;
-  margin: 0;
-  padding-right: 1em;
-}
+  h1 {
+    display: inline-block;
+    margin: 0;
+    padding-right: 1em;
+  }
 
-.Navbar a {
-  display: inline-block;
-  text-decoration: none;
-  outline: none;
-}
+  a{
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+  }
 
-.Navbar hr {
-  border: 1px solid var(--maincolor);
+  hr {
+    border: 1px solid var(--maincolor);
+  }
 }
 
 .Profile-picture img {
@@ -37,16 +37,18 @@
   border-radius: 50%;
 }
 
-.SocialIcons ul {
-  display: inline-flex;
-  align-items: center;
-  padding-left: 0;
-  list-style-type: none;
-}
+.SocialIcons {
+  ul {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0;
+    list-style-type: none;
+  }
 
-.SocialIcons a {
-  padding-left: 1em;
-  padding-right: 1em;
+  a{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 .Horizontal-line {
@@ -61,16 +63,19 @@
   float: left;
 }
 
-.Routes ul {
-  padding: 0;
-  margin: 2px;
-  display: block;
-}
-.Routes li {
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  margin-top: 1.5em;
+.Routes {
+  ul{ 
+    padding: 0;
+    margin: 2px;
+    display: block;
+  }
+
+  li {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 1.5em;
+  }
 }
 
 .Dark-mode-switch-container {

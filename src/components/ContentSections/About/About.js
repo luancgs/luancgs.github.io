@@ -1,4 +1,4 @@
-import '../ContentSection.css';
+import '../ContentSection.scss';
 
 function About() {
   return (

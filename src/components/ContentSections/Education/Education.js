@@ -1,4 +1,4 @@
-import '../ContentSection.css';
+import '../ContentSection.scss';
 
 import UFU from './UFU';
 import IFAL from './IFAL';

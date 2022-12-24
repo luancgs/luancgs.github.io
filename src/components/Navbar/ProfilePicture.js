@@ -1,4 +1,4 @@
-import './Navbar.css';
+import './Navbar.scss';
 
 function ProfilePicture() {
   return (

@@ -1,4 +1,4 @@
-import '../ContentSection.css';
+import '../ContentSection.scss';
 import D3 from './D3';
 
 function Experience() {
