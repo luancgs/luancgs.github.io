@@ -28,9 +28,37 @@
 }
 
 .Title h1 {
-  color: var(--maincolor);
+  color: #fff;
   opacity: calc(0.9);
   margin-bottom: 0em;
+  animation: flicker 3s linear 2s, 2s flicker 4s linear;
+  color: #fff;
+  text-shadow:
+  0 0 4px var(--maincolor),
+  0 0 11px var(--maincolor),
+  0 0 19px var(--maincolor),
+  0 0 40px var(--maincolor),
+  0 0 80px var(--maincolor),
+  0 0 90px var(--maincolor),
+  0 0 100px var(--maincolor),
+  0 0 150px var(--maincolor);
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px var(--maincolor),
+      0 0 11px var(--maincolor),
+      0 0 19px var(--maincolor),
+      0 0 40px var(--maincolor),
+      0 0 80px var(--maincolor),
+      0 0 90px var(--maincolor),
+      0 0 100px var(--maincolor),
+      0 0 150px var(--maincolor);
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
 }
 
 .Title p {
