@@ -1,0 +1,82 @@
+.Navbar {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 20%;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Navbar h1 {
+  display: inline-block;
+  margin: 0;
+  padding-right: 1em;
+}
+
+.Navbar a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+.Navbar hr {
+  border: 1px solid var(--maincolor);
+}
+
+.Profile-picture img {
+  margin-top: 2%;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+.SocialIcons ul {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.SocialIcons a {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.Horizontal-line {
+  width: 90%;
+  margin-bottom: 1.5em;
+}
+
+.Vertical-line {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  float: left;
+}
+
+.Routes ul {
+  padding: 0;
+  margin: 2px;
+  display: block;
+}
+.Routes li {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 1.5em;
+}
+
+.Dark-mode-switch-container {
+  position: absolute;
+  display: flex-box;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+}
