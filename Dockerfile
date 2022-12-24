@@ -10,8 +10,6 @@ COPY express.js /app/
 
 RUN yarn
 
-RUN yarn add express
-
 RUN yarn build
 
 CMD [ "node", "express.js" ]
