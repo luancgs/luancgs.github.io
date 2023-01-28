@@ -7,7 +7,7 @@ const githubURL = 'https://github.com/luancgs';
 function Github() {
   return (
     <li>
-      <div className="Social-icon">
+      <div className="social-icon">
         <a href={githubURL}>
           <FontAwesomeIcon icon="fa-brands fa-github" size="2x" />
         </a>

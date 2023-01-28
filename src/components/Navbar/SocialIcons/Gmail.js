@@ -7,7 +7,7 @@ const gmailURL = 'mailto:luan.carlos.3174@gmail.com';
 function Gmail() {
   return (
     <li>
-      <div className="Social-icon">
+      <div className="social-icon">
         <a href={gmailURL}>
           <FontAwesomeIcon icon="envelope" size="2x" />
         </a>
