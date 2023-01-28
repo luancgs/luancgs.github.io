@@ -1,9 +1,9 @@
-import '../ContentSection.scss';
-import D3 from './D3';
+import './ContentSection.scss';
+import D3 from './Experience/D3';
 
 function Experience() {
   return (
-    <div className="Content-section" id="experience">
+    <div className="content-section" id="experience">
       <div>
         <h2>Experiências</h2>
         <ul>

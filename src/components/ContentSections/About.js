@@ -1,10 +1,10 @@
-import '../ContentSection.scss';
+import './ContentSection.scss';
 
 function About() {
   return (
-    <div className="Content-section" id="about">
+    <div className="content-section" id="about">
       <div className="About">
-        <div className="Title">
+        <div className="title">
           <h1>Luan Carlos</h1>
           <p>Back-end Developer · DevOps · R&D · Engenharia de Controle e Automação</p>
         </div>

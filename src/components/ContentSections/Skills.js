@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../ContentSection.scss';
+import './ContentSection.scss';
 
 function Skills() {
   return (
-    <div className="Content-section" id="skills">
+    <div className="content-section" id="skills">
       <div className="Skills">
         <h2>Habilidades</h2>
         <h3>Liguagens de Programação e Ferramentas</h3>
-        <div className="Tools-list">
+        <div className="tools-list">
           <ul>
             <li>
               <FontAwesomeIcon icon="fa-brands fa-square-js" size="2x" /> +{' '}

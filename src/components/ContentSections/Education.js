@@ -1,11 +1,11 @@
-import '../ContentSection.scss';
+import './ContentSection.scss';
 
-import UFU from './UFU';
-import IFAL from './IFAL';
+import UFU from './Education/UFU';
+import IFAL from './Education/IFAL';
 
 function Education() {
   return (
-    <div className="Content-section" id="education">
+    <div className="content-section" id="education">
       <div>
         <h2>Formação</h2>
         <ul>
