@@ -1,15 +1,15 @@
-.App {
+.app {
   max-width: 100%;
   overflow: auto;
 }
 
-.Color-changer {
-  background: var(--background);
-  color: var(--text);
+.color-changer {
+  background: var(--body-color);
+  color: var(--text-color);
   transition: 1s;
 }
 
-.Content-area {
+.content-area {
   max-width: 75%;
   align-items: center;
   overflow: auto;

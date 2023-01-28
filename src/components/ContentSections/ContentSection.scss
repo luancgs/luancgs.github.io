@@ -1,4 +1,4 @@
-.Content-section {
+.content-section {
   margin: auto;
 
   display: flex;
@@ -23,7 +23,7 @@
   }
 }
 
-.Title {
+.title {
   text-align: center;
 
   h1 {
@@ -33,19 +33,19 @@
     animation: flicker 3s linear 2s, 2s flicker 4s linear;
     color: #fff;
     text-shadow:
-    0 0 4px var(--maincolor),
-    0 0 11px var(--maincolor),
-    0 0 19px var(--maincolor),
-    0 0 40px var(--maincolor),
-    0 0 80px var(--maincolor),
-    0 0 90px var(--maincolor),
-    0 0 100px var(--maincolor),
-    0 0 150px var(--maincolor);
+    0 0 4px var(--primary-color),
+    0 0 11px var(--primary-color),
+    0 0 19px var(--primary-color),
+    0 0 40px var(--primary-color),
+    0 0 80px var(--primary-color),
+    0 0 90px var(--primary-color),
+    0 0 100px var(--primary-color),
+    0 0 150px var(--primary-color);
   }
 
   p {
     opacity: calc(0.7);
-    text-shadow: 0 0 4px var(--maincolor);
+    text-shadow: 0 0 4px var(--primary-color);
     margin-bottom: 4em;
   }
 }
@@ -53,14 +53,14 @@
 @keyframes flicker {
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
     text-shadow:
-      0 0 4px var(--maincolor),
-      0 0 11px var(--maincolor),
-      0 0 19px var(--maincolor),
-      0 0 40px var(--maincolor),
-      0 0 80px var(--maincolor),
-      0 0 90px var(--maincolor),
-      0 0 100px var(--maincolor),
-      0 0 150px var(--maincolor);
+      0 0 4px var(--primary-color),
+      0 0 11px var(--primary-color),
+      0 0 19px var(--primary-color),
+      0 0 40px var(--primary-color),
+      0 0 80px var(--primary-color),
+      0 0 90px var(--primary-color),
+      0 0 100px var(--primary-color),
+      0 0 150px var(--primary-color);
   }
   20%, 24%, 55% {       
     text-shadow: none;
@@ -77,7 +77,7 @@
   }
   
   h3 {
-    color: var(--maincolor);
+    color: var(--primary-color);
   }
 }
 
@@ -85,7 +85,7 @@
   list-style-type: "💻 ";
 }
 
-.Tools-list {
+.tools-list {
   display: flex;
 
   ul {
@@ -98,7 +98,7 @@
     padding-right: 1em;
 
     :not(:last-of-type) {
-      border-right: 2px dotted var(--text);
+      border-right: 2px dotted var(--text-color);
     }
   }
 }

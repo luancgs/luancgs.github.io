@@ -1,13 +1,14 @@
-:root {  
-  --code-text: #EDEDED;
-  --code-border:#4E2A70;
-  --code-background:#680DBD;
-  --maincolor:#8510F0;
-
-  --text:#EDEDED;
-  --background:#121212;
-  --accent:#A85AF2;
-  --navbar-background:#121212;
+:root {
+  // Catppuccin Colors
+  --body-color: #1e1e2e;
+  --navbar-color: #e6e9ef;
+  --primary-color: #cba6f7;
+  --primary-color-primary-color-accent: #680dbd;
+  --toggle-color: #f5e0dc;
+  --text-color: #cdd6f4;
+  --code-text-color: #cdd6f4;
+  --code-border-color: #4E2A70;
+  --code-background-color: #313244;
 
   scroll-behavior: smooth;
 }
@@ -15,17 +16,34 @@
 $font-stack: 'Fira Code', monospace;
 
 .light-mode {
-  --text:#121212;
-  --background:#EDEDED;
-  --maincolor:#8510F0;
-  --accent: #680DBD;
-  --navbar-background:#EDEDED;
+  // Catppuccin Colors
+  --body-color: #eff1f5;
+  --navbar-color: #e6e9ef;
+  --primary-color: #8839ef;
+  --primary-color-primary-color-accent: #680dbd;
+  --toggle-color: #dc8a78;
+  --text-color: #4c4f69;
+  --code-text-color: #4c4f69;
+  --code-border-color: #4E2A70;
+  --code-background-color: #ccd0da;
+}
+
+.social-icons ul{
+  display: inline-flex;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+
+  a{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 body {
   margin: 0;
-  background: var(--background);
-  color: var(--text);
+  background: var(--body-color);
+  color: var(--text-color);
   font-family: $font-stack;
   font-size: 14pt;
   min-width: 60em;
@@ -49,22 +67,22 @@ h2 {
 
 a {
   text-decoration: none;
-  color: var(--maincolor);
+  color: var(--primary-color);
 
   :hover, :focus {
-    color: var(--accent);
+    color: var(--primary-color-accent);
     transition: .3s 0s;
-    text-shadow: 0 0 5px var(--accent), 0 0 5px var(--accent);
+    text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
   }
 }
 
 b {
-  color: var(--maincolor);
+  color: var(--primary-color);
 
   :hover {
-    color: var(--accent);
+    color: var(--primary-color-accent);
     transition: .1s 0s;
-    text-shadow: 0 0 5px var(--accent), 0 0 5px var(--accent);
+    text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
   }
 }
 
@@ -73,7 +91,7 @@ code {
   display: inline-block;
   margin-top: 0.8em;
   padding: 0;
-  color: var(--code-text);
+  color: var(--code-text-color);
 
   :before {
     z-index: -1;
@@ -84,7 +102,7 @@ code {
     right: -3px;
     top: -2px;
     bottom: -1px;
-    border: 1px solid var(--code-border);
-    background: var(--code-background);
+    border: 1px solid var(--code-border-color);
+    background: var(--code-background-color);
   }
 }
