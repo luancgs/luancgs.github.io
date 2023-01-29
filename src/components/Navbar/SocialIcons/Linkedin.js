@@ -7,7 +7,7 @@ const linkedinURL = 'https://www.linkedin.com/in/luan-carlos-gs/';
 function Linkedin() {
   return (
     <li>
-      <div className="Social-icon">
+      <div className="social-icon">
         <a href={linkedinURL}>
           <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" />
         </a>

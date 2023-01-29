@@ -1,86 +1,43 @@
-.Navbar {
+.navbar {
   position: fixed;
   bottom: 0;
   top: 0;
   right: 0;
-  width: 20%;
-  z-index: 100;
+  height: 100%;
+  width: 350px;
 
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 5px;
 
-  overflow-x: hidden;
-  overflow-y: hidden;
+  background: var(--body-color);
 
-  background-color: var(--navbar-background);
-
-  h1 {
-    display: inline-block;
-    margin: 0;
-    padding-right: 1em;
+  .profile-picture img {
+    width: 80%;
+    border-radius: 50%;
   }
 
-  a{
-    display: inline-block;
-    text-decoration: none;
-    outline: none;
+  .routes {
+    ul {
+      padding: 0;
+      margin: 2px;
+      display: block;
+    }
+
+    li {
+      font-weight: bold;
+      text-align: center;
+      display: block;
+      margin-top: 1.5em;
+    }
   }
 
   hr {
-    border: 1px solid var(--maincolor);
+    border: 1px solid var(--primary-color);
   }
 }
 
-.Profile-picture img {
-  margin-top: 2%;
-  max-width: 60%;
-  border-radius: 50%;
-}
-
-.SocialIcons {
-  ul {
-    display: inline-flex;
-    align-items: center;
-    padding-left: 0;
-    list-style-type: none;
-  }
-
-  a{
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-}
-
-.Horizontal-line {
-  width: 90%;
-  margin-bottom: 1.5em;
-}
-
-.Vertical-line {
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  float: left;
-}
-
-.Routes {
-  ul{ 
-    padding: 0;
-    margin: 2px;
-    display: block;
-  }
-
-  li {
-    font-weight: bold;
-    text-align: center;
-    display: block;
-    margin-top: 1.5em;
-  }
-}
-
-.Dark-mode-switch-container {
+.dark-mode-toggle {
   position: absolute;
   display: flex-box;
   bottom: 0;

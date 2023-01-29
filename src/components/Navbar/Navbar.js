@@ -1,11 +1,8 @@
 import './Navbar.scss';
 
-import { useState } from 'react';
-
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
-
 import ProfilePicture from './ProfilePicture';
-import SocialIcons from './SocialIcons/SocialIcons';
+import SocialIcons from './SocialIcons';
+import DarkModeToggle from './DarkModeToggle';
 
 const paths = [
   ['#about', 'Sobre mim'],
@@ -25,37 +22,19 @@ let pathsList = paths.map((item, index) => {
 });
 
 function Navbar() {
-  const [isDarkMode, setDarkMode] = useState(false);
-  const toggleDarkMode = (checked) => {
-    let elem = document.getElementById('app');
-    elem.classList.toggle('light-mode');
-    setDarkMode(checked);
-  };
-
   return (
-    <div className="Navbar Color-changer">
-      <nav>
+    <nav className="navbar">
+      <header>
         <ProfilePicture />
-        <div className="SocialIcons">
-          <SocialIcons />
-        </div>
-        <hr className="Horizontal-line" />
-        <div className="Routes">
+        <SocialIcons />
+        <hr className="horizontal-separator" />
+        <div className="routes">
           <ul>{pathsList}</ul>
         </div>
-        <div className="Dark-mode-switch-container">
-          <DarkModeSwitch
-            style={{ marginBottom: '1rem' }}
-            checked={isDarkMode}
-            onChange={toggleDarkMode}
-            size={40}
-            moonColor="#3E0870"
-            sunColor="#A85AF2"
-          />
-        </div>
-      </nav>
-      <hr className="Vertical-line" />
-    </div>
+        <DarkModeToggle />
+      </header>
+      <hr className="vertical-separator" />
+    </nav>
   );
 }
 

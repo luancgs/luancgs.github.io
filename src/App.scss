@@ -1,16 +1,77 @@
-.App {
-  max-width: 100%;
-  overflow: auto;
+.app {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+
+  .content-area {
+    max-width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    align-items: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  @media only screen and (min-width: 900px) {
+    max-width: 100%;
+
+    h1 {
+      font-size: 7rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+    }
+
+    .navbar {
+      display: flex;
+    }
+
+    .content-area {
+      max-width: calc(95% - 350px);
+      padding-left: 1%;
+    }
+
+    .content-section {
+      height: 100vh;
+
+      .mobile-info {
+        display: none;
+      }
+
+      ul {
+        padding-left: 3rem;
+      }
+    }
+  }
 }
 
-.Color-changer {
-  background: var(--background);
-  color: var(--text);
+.horizontal-separator {
+  width: 92%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.vertical-separator {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  float: left;
+}
+
+.color-changer {
+  background: var(--body-color);
+  color: var(--text-color);
   transition: 1s;
-}
-
-.Content-area {
-  max-width: 75%;
-  align-items: center;
-  overflow: auto;
 }

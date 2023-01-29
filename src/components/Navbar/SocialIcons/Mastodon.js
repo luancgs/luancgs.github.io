@@ -2,12 +2,12 @@ import '../Navbar.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const mastodonURL = '@luancgs@universeodon.com';
+const mastodonURL = 'https://universeodon.com/@luancgs';
 
 function Mastodon() {
   return (
     <li>
-      <div className="Social-icon">
+      <div className="social-icon">
         <a href={mastodonURL}>
           <FontAwesomeIcon icon="fa-brands fa-mastodon" size="2x" />
         </a>

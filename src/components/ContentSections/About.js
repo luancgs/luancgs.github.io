@@ -1,16 +1,22 @@
-import '../ContentSection.scss';
+import ProfilePicture from '../Navbar/ProfilePicture';
+import SocialIcons from '../Navbar/SocialIcons';
+import './ContentSection.scss';
 
 function About() {
   return (
-    <div className="Content-section" id="about">
+    <div className="content-section" id="about">
       <div className="About">
-        <div className="Title">
+        <div className="mobile-info">
+          <SocialIcons />
+          <ProfilePicture />
+        </div>
+        <div className="title">
           <h1>Luan Carlos</h1>
           <p>Back-end Developer · DevOps · R&D · Engenharia de Controle e Automação</p>
         </div>
         <p>
           Oi! Meu nome é Luan Carlos, tenho 23 anos e sou Desenvolvedor Back End & DevOps. Sou técnico em
-          Eletreletrônica pelo Instituto Federal de Alagoas e em Engenheiro de Controle e Automação em formação pela
+          Eletroeletrônica pelo Instituto Federal de Alagoas e em Engenheiro de Controle e Automação em formação pela
           Universidade Federal de Uberlândia. Sou apaixonado por Robótica, Eletrônica, Automação e Desenvolvimento de
           Tecnologias e Aplicações.
         </p>
