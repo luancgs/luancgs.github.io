@@ -44,27 +44,27 @@ function App() {
     <div className="app color-changer" id="app">
       <Navbar />
       <div className="content-area">
-        <AnimationOnScroll
+        {/* <AnimationOnScroll
           initiallyVisible={true}
           offset={800}
           animateIn="animate__fadeIn"
           animateOut="animate__fadeOut"
           duration={1}
-        >
-          <About />
-        </AnimationOnScroll>
-
-        <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}>
-          <Experience />
-        </AnimationOnScroll>
-
-        <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}>
-          <Education />
-        </AnimationOnScroll>
-
-        <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}>
-          <Skills />
-        </AnimationOnScroll>
+        > */}
+        <About />
+        {/* </AnimationOnScroll> */}
+        <hr className="horizontal-separator" />
+        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
+        <Experience />
+        {/* </AnimationOnScroll> */}
+        <hr className="horizontal-separator" />
+        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
+        <Education />
+        {/* </AnimationOnScroll> */}
+        <hr className="horizontal-separator" />
+        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
+        <Skills />
+        {/* </AnimationOnScroll> */}
       </div>
     </div>
   );

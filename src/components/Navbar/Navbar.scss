@@ -18,12 +18,12 @@
   }
 
   .routes {
-    ul{ 
+    ul {
       padding: 0;
       margin: 2px;
       display: block;
     }
-  
+
     li {
       font-weight: bold;
       text-align: center;
@@ -35,18 +35,6 @@
   hr {
     border: 1px solid var(--primary-color);
   }
-}
-
-.horizontal-separator {
-  width: 90%;
-  margin-bottom: 1.5em;
-}
-
-.vertical-separator {
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  float: left;
 }
 
 .dark-mode-toggle {

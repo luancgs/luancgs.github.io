@@ -35,41 +35,42 @@ function Skills() {
             </li>
           </ul>
         </div>
-
-        <h3>Competências</h3>
-        <ul>
-          <li>
-            Desenvolvimento de APIs em <b>Node.js</b> (Javascript e Typescript) utilizando <b>Express</b> e{' '}
-            <b>NestJS</b>.
-          </li>
-          <li>
-            Experiência prática em sistemas{' '}
-            <b>
-              Unix <FontAwesomeIcon icon="fa-brands fa-linux" />
-            </b>
-            .
-          </li>
-          <li>
-            Scripts de automação em <b>BASH</b> e <b>Lua</b>.
-          </li>
-          <li>
-            Bancos de dados: <b>MySQL</b>,<b>PostgreSQL</b>, <b>DynamoDB</b> e <b>Redis</b>.
-          </li>
-          <li>Experiência na produção de BFFs (Backend for Frontend)</li>
-          <li>
-            Experiência em orquestração de containers através do{' '}
-            <b>
-              Docker <FontAwesomeIcon icon="fa-brands fa-docker" />
-            </b>{' '}
-            e <b>Docker Compose</b>.
-          </li>
-        </ul>
-        <h3>Idiomas</h3>
-        <ul>
-          <li>Inglês: Avançado</li>
-          <li>Espanhol: Intermediário</li>
-          <li>Português: Nativo</li>
-        </ul>
+        <div className="list-skills">
+          <h3>Competências</h3>
+          <ul>
+            <li>
+              Desenvolvimento de APIs em <b>Node.js</b> (Javascript e Typescript) utilizando <b>Express</b> e{' '}
+              <b>NestJS</b>.
+            </li>
+            <li>
+              Experiência prática em sistemas{' '}
+              <b>
+                Unix <FontAwesomeIcon icon="fa-brands fa-linux" />
+              </b>
+              .
+            </li>
+            <li>
+              Scripts de automação em <b>BASH</b> e <b>Lua</b>.
+            </li>
+            <li>
+              Bancos de dados: <b>MySQL</b>,<b>PostgreSQL</b>, <b>DynamoDB</b> e <b>Redis</b>.
+            </li>
+            <li>Experiência na produção de BFFs (Backend for Frontend)</li>
+            <li>
+              Experiência em orquestração de containers através do{' '}
+              <b>
+                Docker <FontAwesomeIcon icon="fa-brands fa-docker" />
+              </b>{' '}
+              e <b>Docker Compose</b>.
+            </li>
+          </ul>
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Inglês: Avançado</li>
+            <li>Espanhol: Intermediário</li>
+            <li>Português: Nativo</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

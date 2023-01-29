@@ -3,38 +3,36 @@
   --body-color: #1e1e2e;
   --navbar-color: #e6e9ef;
   --primary-color: #cba6f7;
-  --primary-color-primary-color-accent: #680dbd;
-  --toggle-color: #f5e0dc;
+  --primary-color-accent: #f9e2af;
   --text-color: #cdd6f4;
   --code-text-color: #cdd6f4;
-  --code-border-color: #4E2A70;
+  --code-border-color: #4e2a70;
   --code-background-color: #313244;
 
   scroll-behavior: smooth;
 }
 
-$font-stack: 'Fira Code', monospace;
+$font-stack: "Fira Code", monospace;
 
 .light-mode {
   // Catppuccin Colors
   --body-color: #eff1f5;
   --navbar-color: #e6e9ef;
   --primary-color: #8839ef;
-  --primary-color-primary-color-accent: #680dbd;
-  --toggle-color: #dc8a78;
+  --primary-color-accent: #df8e1d;
   --text-color: #4c4f69;
   --code-text-color: #4c4f69;
-  --code-border-color: #4E2A70;
+  --code-border-color: #4e2a70;
   --code-background-color: #ccd0da;
 }
 
-.social-icons ul{
+.social-icons ul {
   display: inline-flex;
   align-items: center;
   padding-left: 0;
   list-style-type: none;
 
-  a{
+  a {
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -45,45 +43,54 @@ body {
   background: var(--body-color);
   color: var(--text-color);
   font-family: $font-stack;
-  font-size: 14pt;
-  min-width: 60em;
+  font-size: 1rem;
+
+  @media only screen and (min-width: 900px) {
+    font-size: 1.25rem;
+  }
 }
 
-pre, code { font-family: $font-stack; }
+pre,
+code {
+  font-family: $font-stack;
+}
 
-header, main {
+header,
+main {
   -webkit-text-size-adjust: none;
 }
 
 h1 {
-  font-size: 55pt;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 26pt;
+  font-size: 2rem;
   font-weight: 500;
 }
 
 a {
   text-decoration: none;
   color: var(--primary-color);
+}
 
-  :hover, :focus {
-    color: var(--primary-color-accent);
-    transition: .3s 0s;
-    text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
-  }
+a:hover,
+a:focus {
+  color: var(--primary-color-accent);
+  transition: 0.3s 0s;
+  text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
 }
 
 b {
   color: var(--primary-color);
+}
 
-  :hover {
-    color: var(--primary-color-accent);
-    transition: .1s 0s;
-    text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
-  }
+b:hover,
+b:focus {
+  color: var(--primary-color-accent);
+  transition: 0.3s 0s;
+  text-shadow: 0 0 5px var(--primary-color-accent), 0 0 5px var(--primary-color-accent);
 }
 
 code {
