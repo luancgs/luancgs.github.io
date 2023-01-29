@@ -1,6 +1,4 @@
 import './App.scss';
-
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faLinkedin,
@@ -44,27 +42,13 @@ function App() {
     <div className="app color-changer" id="app">
       <Navbar />
       <div className="content-area">
-        {/* <AnimationOnScroll
-          initiallyVisible={true}
-          offset={800}
-          animateIn="animate__fadeIn"
-          animateOut="animate__fadeOut"
-          duration={1}
-        > */}
         <About />
-        {/* </AnimationOnScroll> */}
         <hr className="horizontal-separator" />
-        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
         <Experience />
-        {/* </AnimationOnScroll> */}
         <hr className="horizontal-separator" />
-        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
         <Education />
-        {/* </AnimationOnScroll> */}
         <hr className="horizontal-separator" />
-        {/* <AnimationOnScroll offset={800} animateIn="animate__fadeIn" animateOut="animate__fadeOut" duration={1}> */}
         <Skills />
-        {/* </AnimationOnScroll> */}
       </div>
     </div>
   );
