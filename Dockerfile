@@ -1,15 +1,11 @@
-FROM node:lts
+FROM node:18.17.1-alpine
 
 WORKDIR /app/
 
-COPY src/ /app/src/
-COPY public/ /app/public/
-
-COPY package.json yarn.lock /app/
-COPY express.js /app/
+COPY . /app/
 
 RUN yarn
 
 RUN yarn build
 
-CMD [ "node", "express.js" ]
+CMD ["yarn", "run", "start", "--host"]
