@@ -1,4 +1,4 @@
-# [Luan Carlos Portfolio](https://luancgs.github.io/)
+# [Luan's Portfolio](https://luancgs.dev/)
 
 A simple portifolio to show case some of my skills as a developer. Also may serve as a _Curriculum Vitae_.
 
@@ -6,9 +6,8 @@ A simple portifolio to show case some of my skills as a developer. Also may serv
 
 ## 🧰 Technologies
 
-- [React](https://reactjs.org)
-- [Sass](https://sass-lang.com)
-- [Express](https://expressjs.com)
+- [Astro](https://astro.build/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Docker](https://www.docker.com)
 
 ## ⚙️ How to run locally
@@ -26,14 +25,11 @@ $ cd luancgs.github.io
 If you have Docker installed, just do the following commands:
 
 ```sh
-# Builds project docker image. Might take some time.
-$ docker build --tag luancgs-portfolio .
-
-# Runs container using the image built above.
-$ docker run --init -it --rm -p 8080:9000 --name luancgs-portfolio luancgs-portfolio
+# Builds project docker image and runs it. It might take some time.
+$ docker compose up -d
 ```
 
-After that, you should access http://localhost:8080 to see the portfolio.
+After that, you should access http://localhost:3000 to see the portfolio.
 
 If you don't have docker or prefer to run using local node, simply do:
 
@@ -45,7 +41,11 @@ $ yarn
 $ yarn start
 ```
 
-In this case, you should access http://localhost:9000 to see the portfolio.
+In this case, you should still access http://localhost:3000 to see the portfolio.
+
+## 📝 To Do
+
+Update readme :)
 
 ## ❔ Questions? Get in touch!
 
