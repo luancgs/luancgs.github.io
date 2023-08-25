@@ -9,7 +9,7 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: '#570df8',
+          primary: '#4507b8',
           secondary: '#f000b8',
           accent: '#1dcdbc',
           neutral: '#2b3440',
@@ -22,11 +22,11 @@ module.exports = {
       },
       {
         night: {
-          primary: '#3abff8',
+          primary: '#ff6300',
           secondary: '#828df8',
           accent: '#f471b5',
           neutral: '#1d283a',
-          'base-100': '#0f1729',
+          'base-100': '#090909',
           info: '#0ca6e9',
           success: '#2bd4bd',
           warning: '#f4c152',
