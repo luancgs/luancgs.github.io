@@ -2,7 +2,7 @@
 
 A simple portifolio to show case some of my skills as a developer. Also may serve as a _Curriculum Vitae_.
 
-<hr>
+[![Deploy Astro site to Pages](https://github.com/luancgs/luancgs.github.io/actions/workflows/astro.yml/badge.svg?branch=main)](https://github.com/luancgs/luancgs.github.io/actions/workflows/astro.yml)
 
 ## 🧰 Technologies
 
