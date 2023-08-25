@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luancgs.dev/sitemap-index.xml
+Sitemap: https://luancgs.github.io/sitemap-index.xml

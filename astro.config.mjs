@@ -8,7 +8,7 @@ import image from '@astrojs/image';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://luancgs.dev',
+  site: 'https://luancgs.github.io',
   integrations: [
     mdx(),
     sitemap(),
