@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="about-me">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I am a 24-year-old back-end developer and software engineer who finds boundless fascination in the world of technology. With a strong penchant for robotics, automation, electronics, and software development, I channel my enthusiasm into creating seamless technological solutions. My journey is driven by a sincere curiosity to understand and contribute to the dynamic world of technologies that impact our lives in so many ways.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Software Engineering"
+      subtitle="Since 2023 at International University Center - UNINTER"
+    />
+    <TimeLineElement
+      title="Electronics Technician"
+      subtitle="From 2014 to 2017 at Federal Institute of Alagoas - IFAL"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Back-end Developer at MB Labs"
+      subtitle="Since February/2023"
+    >
+      As a back-end software engineer, my role is centered around the proactive creation and refinement of expansive web solutions, with a dedicated focus on harnessing the capabilities of the Node.JS stack. Additionally, my responsibilities extend to adeptly navigating and orchestrating cloud technologies, further augmenting the robustness and scalability of the solutions I engineer.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Back-end Developer at D3"
+      subtitle="From July/2021 to August/2022"
+    >
+      I have been involved in diverse phases of web application development, encompassing the entire spectrum from conceptualization and architectural design to final product delivery, enveloping a diverse range of frameworks and programming languages. While my primary focus has centered around back-end application development, I have also been actively engaged in the DevOps sphere, contributing to the operational aspects of the projects I have been associated with.
+    </TimeLineElement>
+  </div>
+
+  <!-- <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul> -->
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Typescript</li>
+    <li>Python</li>
+    <li>Golang</li>
+    <li>Git</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>Amazon Web Services</li>
+    <li>Linux</li>
+  </ul>
+</BaseLayout>
